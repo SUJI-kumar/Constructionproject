@@ -1,0 +1,46 @@
+   *{
+   padding: 0%;
+    margin:0%;
+}
+body{
+    background-image: url(Img/civil.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: medium;
+    font-family:Tahoma, Verdana, sans-serif;
+}
+.navbar{
+    height:80px;
+    opacity: .9;
+}
+.nav-link,.dropdown-item{
+    color: black !important;
+}
+
+.list{
+    /* border: 2px solid white; */
+    background-color:transparent;
+    text-align: center;
+    opacity: .6;    
+}
+.list ul{
+    list-style:none;
+    display: inline-flex;
+    color: black;
+    
+
+}
+.list li{
+	border:2px solid black;
+	border-radius: 10px;
+}
+.list  ul li{
+    width: 130px;
+    margin:16px;
+    padding:5px;  
+}
+.list ul li:hover{
+    background-color: lightyellow;
+    color: darkblue;
+
+}
