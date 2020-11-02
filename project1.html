@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+    <style>
+        #image{
+            
+            position: relative;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+   <script>
+       $(document).ready(function(){
+        $('#toggle').click(function(){
+        $('#image').slideToggle()
+
+    })
+    $('#header').click(function(){
+        $('#text').slideToggle()
+
+    })
+
+    $('#header1').click(function(){
+        $('#text2').slideToggle()
+
+    })
+       
+       })
+   </script>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <link href="css/style.css" rel="stylesheet">
+  
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-autp" href="index.html"><img src="Img/logo.jpeg" height="30" width="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul  class="navbar-nav mr-auto ">
+                    <li class="nav-item active"><a class="nav-link" href="index.html" ><i class="fa fa-home"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-mobile-phone"></i>Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-folder-open"></i>Projects
+                          </a>
+                        <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">First project</a>
+                            <a class="dropdown-item" href="#">Second action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">All projects here</a>
+                          </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="galllery.html"><i class="fa fa-file-image-o"></i>Gallery</a></li>
+                    
+                </ul>
+                <span class="navbar-text">
+                  <a class="nav-link" href="login.html" role="button"><i class="fa fa-sign-in"></i>Login</a>
+                
+              </span>
+            </div>
+        </div>
+    </nav>
+
+    <H1>First Project</H1>
+    <div id="image" style="border: 2px solid black;">
+    <img src="Img/pr.jpg" alt="d" width="1250px" height="400px">
+    <br>
+</div>
+    <button id="toggle" >clickme</button>
+    <h1 id="header1">Introduction</h1>
+    <p id="text2" style="border: 2px solid black;">Project management is the basis on which every construction project is founded. A construction project manager has to obtain a variety of skills and competences in order to navigate through the project and to establish a functional connection with the numerous teams. Construction projects have a continuous need for alterations and in that sense project management is key to the stability of the whole procedure. In this article, we will try to walk you through the vital concepts and principles around construction project management.</p>
+    <h1 id="header" >What does construction project management (CPM) mean?
+    </h1>
+    <p id="text" style="border: 2px solid black;">Construction project management could be defined as the direction, regulation, and supervision of a project from early development to completion. The ultimate goal of construction project management is the full satisfaction of the client’s demands for a viable project both in terms of functionality and budget. There is a wide range of construction project types, such as commercial, residential, industrial and heavy civil.</p>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="galllery.html">Gallery</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                        <h5>Our Address</h5>
+                    <address style="font-size: 100%">
+		              1583/16, Krishna kunj<br>
+		              Grgaon, Haryana<br>
+		              INDIA<br>
+		              <i class="fa fa-phone"></i>: +8929944156<br>
+		              <i class="fa fa-fax"></i>: +6283614173<br>
+		              <i class="fa fa-envelope"></i>:
+                        <a href="mailto:singhsujit1999@gmail.com">Singhsujit1999@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:singhsujit1999@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2018 Singh Contraction</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
